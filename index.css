@@ -78,7 +78,15 @@ input[type="number"] {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #3d3d3d;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+#convert:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+#convert:active {
+  transform: scale(1.05);
 }
 
 #results {
